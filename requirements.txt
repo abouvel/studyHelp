@@ -1,0 +1,14 @@
+# --- Index for GPU-enabled PyTorch ---
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# --- Core AI Engine (RTX 3050 Compatible) ---
+# We use >= to let pip find the 3.13 compatible wheels
+torch>=2.5.1
+torchvision>=0.20.1
+ultralytics>=8.3.0
+
+# --- Vision & Utilities ---
+opencv-python>=4.10.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+PyYAML>=6.0.0

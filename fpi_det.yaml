@@ -1,0 +1,13 @@
+# YOLO dataset configuration for FPI detection
+# Dataset path (relative to this YAML file)
+path: reorganized_dataset
+
+# Train, validation and test sets
+train: train/images
+val: val/images
+test: test/images
+
+# Class names (adjust these based on your actual classes)
+names:
+  0: phone
+  1: face

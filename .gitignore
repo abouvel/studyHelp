@@ -1,0 +1,7 @@
+*.zip
+*.jpg
+*.jpeg
+*.png
+\venv
+/venv
+*venv
