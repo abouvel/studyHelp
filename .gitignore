@@ -5,3 +5,7 @@
 \venv
 /venv
 *venv
+/poly
+\poly
+*.csv
+*.pt

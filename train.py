@@ -55,15 +55,15 @@ def train_model():
 
             # --- PREPARE SUCCESS NOTIFICATION ---
             # Extracting metrics from the results object
-            map50_95 = results.results_dict.get('metrics/mAP50-95(B)', 0)
-            map50 = results.results_dict.get('metrics/mAP50(B)', 0)
-            epochs_run = len(results.fitness) # Actual epochs run before patience stop
+            # map50_95 = results.results_dict.get('metrics/mAP50-95(B)', 0)
+            # map50 = results.results_dict.get('metrics/mAP50(B)', 0)
+            # epochs_run = len(results.fitness) # Actual epochs run before patience stop
 
-            fields = [
-                {"name": "Accuracy (mAP50-95)", "value": f"{map50_95:.4f}", "inline": True},
-                {"name": "Accuracy (mAP50)", "value": f"{map50:.4f}", "inline": True},
-                {"name": "Epochs Completed", "value": str(epochs_run), "inline": True}
-            ]
+            # fields = [
+            #     {"name": "Accuracy (mAP50-95)", "value": f"{map50_95:.4f}", "inline": True},
+            #     {"name": "Accuracy (mAP50)", "value": f"{map50:.4f}", "inline": True},
+            #     {"name": "Epochs Completed", "value": str(epochs_run), "inline": True}
+            # ]
 
             send_discord_embed(
                 "✅ Training Complete!", 

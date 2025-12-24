@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: yolo11n.pt
 data: fpi_det.yaml
-epochs: 1
+epochs: 150
 time: null
 patience: 30
 batch: -1
